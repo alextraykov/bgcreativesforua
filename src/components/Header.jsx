@@ -36,13 +36,17 @@ export const StyledLink = styled(Link)`
   color: ${(props) => props.theme.textLight};
   text-decoration: none;
 
-  &:not(:last-child) {
+  &:not(:first-child) {
     margin-left: 1.5rem;
   }
 
   @media ${devices.mobileL} {
-    &:not(:last-child) {
+    &:not(:first-child) {
       margin-left: 0;
+      margin-bottom: 1rem;
+    }
+
+    &:first-child {
       margin-bottom: 1rem;
     }
   }
@@ -138,7 +142,9 @@ export const Header = () => {
             <StyledLink to="/">Helpful Resources</StyledLink>
             <StyledLink to="contact">Contacts</StyledLink>
           </NavigationLinks>
-          <CTA target="_blank" href="https://airtable.com/shrH757xtAinFWZRH">Join the list</CTA>
+          <CTA target="_blank" href="https://airtable.com/shrH757xtAinFWZRH">
+            Join the list
+          </CTA>
         </Navigation>
         <Hero>
           <HeroLeft>
