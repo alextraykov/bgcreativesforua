@@ -81,10 +81,10 @@ const ContactButton = styled.a`
   }
 `;
 
-export const Job = ({title, link, description, contactLink, image}) => {
+export const Job = ({title, link, description, contactLink,externalLink, buttonContent, image}) => {
   return (
     <Frame>
-      <Logo src={image} />
+      {image&&<Logo src={image} />}
       <JobDetails>
         <JobTitle>{title}</JobTitle>
         <JobSite href={link}>
@@ -95,7 +95,7 @@ export const Job = ({title, link, description, contactLink, image}) => {
         </JobDescription>
       </JobDetails>
       <ContactButton href=
-      {`mailto:${contactLink}`}>Contact</ContactButton>
+      {externalLink?externalLink:`mailto:${contactLink}`}>{buttonContent?buttonContent:`Contact`}</ContactButton>
     </Frame>
   );
 };

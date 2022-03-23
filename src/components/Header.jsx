@@ -139,7 +139,7 @@ export const Header = () => {
           <NavigationLinks>
             <StyledLink to="/">Companies</StyledLink>
             <StyledLink to="/about">About the project</StyledLink>
-            <StyledLink to="/">Helpful Resources</StyledLink>
+            <StyledLink to="/Resources">Helpful Resources</StyledLink>
             <StyledLink to="contact">Contacts</StyledLink>
           </NavigationLinks>
           <CTA target="_blank" href="https://airtable.com/shrH757xtAinFWZRH">
