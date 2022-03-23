@@ -41,7 +41,7 @@ export const JobsList = () => {
         <Text>Companies</Text>
         <List>
           <Job 
-          title="Four Plus" link="https://noblegraphics.eu/" description="We help clients find their voice, launch campaigns and products, and explain them to their customers. Get in touch, see who we are or check our selected projects. "
+          title="Four Plus" link="https://fourplus.bg/" description="We help clients find their voice, launch campaigns and products, and explain them to their customers. Get in touch, see who we are or check our selected projects."
           contactLink="jobs@noblegraphics.eu"
           image={fourPlus} />
           <Job 

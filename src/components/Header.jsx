@@ -138,7 +138,7 @@ export const Header = () => {
           </StyledLink>
           <NavigationLinks>
             <StyledLink to="/">Companies</StyledLink>
-            <StyledLink to="/about">About the project</StyledLink>
+            {/* <StyledLink to="/about">About the project</StyledLink> */}
             <StyledLink to="/Resources">Helpful Resources</StyledLink>
             <StyledLink to="contact">Contacts</StyledLink>
           </NavigationLinks>

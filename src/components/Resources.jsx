@@ -91,29 +91,20 @@ export const Resources = () => {
                image={null}
                buttonContent="Evacuate"
            />
-      <Frame>
-        <Picture src={pepo} />
-        <Details>
-          <Name>Petar Dyakov</Name>
-          <Bio>
-            If you feel like you’re the right kind of person for our agency,
-            send us an email with your CV and portfolio. We’re on a constant
-            lookout for talented designers, copywriters, developers, account
-            executives, and interns.
-          </Bio>
-          <SocialLinks>
-            <a
-              href="https://www.linkedin.com/in/petar-dyakov/"
-              aria-label="Linkedin"
-            >
-              <Logo src={linkedin} />
-            </a>
-            <a href="mailto:petar.dyakov@icloud.com" aria-label="Linkedin">
-              <Logo src={email} />
-            </a>
-          </SocialLinks>
-        </Details>
-      </Frame>
+          <Job
+               title="
+               In Support of People Affected by the Conflict in Ukraine" link="https://en.redcross.bg/" description="The Bulgarian Red Cross launches a National Charity Campaign in support of people affected by the conflict in Ukraine.
+               The collected funds will be managed by a Public Council and will be used to meet the ever-increasing needs for humanitarian assistance."
+               contactLink="https://en.redcross.bg/donations/view?donid=21"
+               image={null}
+               buttonContent="Donate"
+           />
+          <Job
+               title="Updated important information on refugees from Ukraine" link="https://www.bghelsinki.org/en" description="Important information for refugees from Ukraine entering Bulgaria."
+               contactLink="https://www.bghelsinki.org/en/news/aktualna-informacija-za-vlizashtite-v-bylgarija-ukrainski-grajdani"
+               image={null}
+               buttonContent="View"
+           />
     </ContactList>
   );
 };
