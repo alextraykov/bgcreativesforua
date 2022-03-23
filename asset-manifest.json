@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/creatives-for-ukraine/static/css/main.36e5cf60.css",
-    "main.js": "/creatives-for-ukraine/static/js/main.1a5d49ce.js",
-    "static/media/pepo.png": "/creatives-for-ukraine/static/media/pepo.38963ed41c2afdf618b7.png",
-    "static/media/high-five.png": "/creatives-for-ukraine/static/media/high-five.8eae9b52f62f4d21b58b.png",
-    "static/media/alex.jpeg": "/creatives-for-ukraine/static/media/alex.6f395e9af427aaff1d5f.jpeg",
-    "index.html": "/creatives-for-ukraine/index.html",
-    "main.36e5cf60.css.map": "/creatives-for-ukraine/static/css/main.36e5cf60.css.map",
-    "main.1a5d49ce.js.map": "/creatives-for-ukraine/static/js/main.1a5d49ce.js.map"
+    "main.css": "/bgcreativesforua/static/css/main.36e5cf60.css",
+    "main.js": "/bgcreativesforua/static/js/main.f8a0841f.js",
+    "static/media/pepo.png": "/bgcreativesforua/static/media/pepo.38963ed41c2afdf618b7.png",
+    "static/media/high-five.png": "/bgcreativesforua/static/media/high-five.8eae9b52f62f4d21b58b.png",
+    "static/media/alex.jpeg": "/bgcreativesforua/static/media/alex.6f395e9af427aaff1d5f.jpeg",
+    "index.html": "/bgcreativesforua/index.html",
+    "main.36e5cf60.css.map": "/bgcreativesforua/static/css/main.36e5cf60.css.map",
+    "main.f8a0841f.js.map": "/bgcreativesforua/static/js/main.f8a0841f.js.map"
   },
   "entrypoints": [
     "static/css/main.36e5cf60.css",
-    "static/js/main.1a5d49ce.js"
+    "static/js/main.f8a0841f.js"
   ]
 }
