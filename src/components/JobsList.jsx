@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Job } from './Job';
 import { devices } from '../theme';
-import alex from '../static/alex.jpeg'
 import nextdc  from '../static/nextdc.png'
 import fourPlus  from '../static/fourplus.png'
 import gutsBrain  from '../static/guts-and-brains.png'
