@@ -6,7 +6,7 @@ import { JobsList } from './components/JobsList';
 import { Footer } from './components/Footer';
 import { Contact } from './components/Contact';
 import { About } from './components/About';
-import {Resources} from './components/Resources'
+import { Resources } from './components/Resources';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route exact path="/" element={<JobsList />} />
+          <Route exact path="/bgcreativesforua" element={<JobsList />} />
           <Route path="contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
