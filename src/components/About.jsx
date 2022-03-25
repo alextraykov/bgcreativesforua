@@ -8,7 +8,7 @@ const AboutWrapper = styled.div`
   margin: 2.4rem auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 
   @media ${devices.mobileL} {
     padding: 0 1.2rem;
@@ -28,7 +28,7 @@ const Text = styled.p`
 export const About = () => {
   return (
     <AboutWrapper>
-      <Title>Title</Title>
+      <Title>About the project</Title>
       <Text>Text</Text>
     </AboutWrapper>
   );

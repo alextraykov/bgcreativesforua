@@ -60,7 +60,7 @@ export const Footer = () => {
         <FooterLinks>
           <StyledLink to="/about">About the project</StyledLink>
           <StyledLink to="/contact">Contacts</StyledLink>
-          <StyledLink to="/">Donate</StyledLink>
+          <StyledLink to="/bgcreativesforua">Donate</StyledLink>
           <CTA to="https://airtable.com/shrH757xtAinFWZRH">Join the list</CTA>
         </FooterLinks>
       </FooterInner>

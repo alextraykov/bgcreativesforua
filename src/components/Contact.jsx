@@ -88,12 +88,9 @@ export const Contact = () => {
       <Frame>
         <Picture src={alex} />
         <Details>
-          <Name>Alex Traykov</Name>
+          <Name>Alexander Traykov</Name>
           <Bio>
-            If you feel like you’re the right kind of person for our agency,
-            send us an email with your CV and portfolio. We’re on a constant
-            lookout for talented designers, copywriters, developers, account
-            executives, and interns.
+            I'm a Product Designer and I wanted to contribute with something beyond financial donations and support - so I decided to design this index with the hopes that it could serve as a landmark for the Ukraninan creatives willing to stay in Bulgaria.
           </Bio>
           <SocialLinks>
             <a
@@ -113,10 +110,7 @@ export const Contact = () => {
         <Details>
           <Name>Petar Dyakov</Name>
           <Bio>
-            If you feel like you’re the right kind of person for our agency,
-            send us an email with your CV and portfolio. We’re on a constant
-            lookout for talented designers, copywriters, developers, account
-            executives, and interns.
+          I'm a Front-end Developer and I decided to use my skills and knowledge to help people. I got together with my friend Alex and decided to help him create this small website to try and help Ukrainian creatives.
           </Bio>
           <SocialLinks>
             <a
