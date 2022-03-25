@@ -5,7 +5,6 @@ import { Header } from './components/Header';
 import { JobsList } from './components/JobsList';
 import { Footer } from './components/Footer';
 import { Contact } from './components/Contact';
-import { About } from './components/About';
 import { Resources } from './components/Resources';
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route exact path="/bgcreativesforua" element={<JobsList />} />
+          <Route exact path="/" element={<JobsList />} />
           <Route path="contact" element={<Contact />} />
           {/* <Route path="/about" element={<About />} /> */}
           <Route path="/resources" element={<Resources />} />

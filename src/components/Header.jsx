@@ -133,11 +133,11 @@ export const Header = () => {
     <Background>
       <InnerContainer>
         <Navigation>
-          <StyledLink logo="true" to="/bgcreativesforua">
+          <StyledLink logo="true" to="/">
             🇧🇬🕊️🇺🇦
           </StyledLink>
           <NavigationLinks>
-            <StyledLink to="/bgcreativesforua">Companies</StyledLink>
+            <StyledLink to="/">Companies</StyledLink>
             {/* <StyledLink to="/about">About the project</StyledLink> */}
             <StyledLink to="/Resources">Helpful Resources</StyledLink>
             <StyledLink to="contact">About us</StyledLink>
