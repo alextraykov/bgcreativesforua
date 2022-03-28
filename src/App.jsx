@@ -5,8 +5,7 @@ import { Header } from './components/Header';
 import { JobsList } from './components/JobsList';
 import { Footer } from './components/Footer';
 import { Contact } from './components/Contact';
-import { About } from './components/About';
-import {Resources} from './components/Resources'
+import { Resources } from './components/Resources';
 
 function App() {
   return (
